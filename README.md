@@ -5,7 +5,7 @@ Java + Selenium4 + Extentreports + TestNG + ITestLsiterners
 
 
 Dependencies 
-1. java version 17.0.9
+1. Java version 17.0.9
 2. Apache Maven 3.9.6
 3. Dependencies Maintined on pom.xml
 Run Tests

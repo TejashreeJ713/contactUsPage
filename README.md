@@ -1,6 +1,6 @@
 # contactUsPage
  SpringFIn assignment
-Java + Selenium4 + Extentreports + TestNG + ITestListeners
+Java + Selenium4 + ExtentReports + TestNG + ITestListeners
 
 
 

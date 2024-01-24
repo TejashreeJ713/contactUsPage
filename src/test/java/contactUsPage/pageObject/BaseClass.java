@@ -15,10 +15,10 @@ import com.aventstack.extentreports.ExtentReports;
 import net.datafaker.Faker;
 
 public class BaseClass {
-	public 	ExtentReports extent;
-	Faker data = new Faker();
+//	public 	ExtentReports extent;
+	Faker data = new Faker();//object created
 	public String baseURL = "https://webdriveruniversity.com/Contact-Us/contactus.html";
-	public String nameF = data.name().firstName();
+	public String nameF = data.name().firstName();//variable declared
 	public String nameL = data.name().lastName();
 	public String email = data.internet().emailAddress();
 	public String invalidEMail = data.name().malefirstName()+data.name().lastName()+".com";
@@ -41,7 +41,7 @@ public class BaseClass {
 	
 	@AfterClass
 	public void tearDown() {
-		extent.flush();
+//		extent.flush();
 		driver.close();
 	}
 }

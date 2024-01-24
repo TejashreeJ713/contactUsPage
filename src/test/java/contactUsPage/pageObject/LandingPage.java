@@ -47,9 +47,9 @@ public class LandingPage {
 			System.out.println("No data was submitted");
 		}
 		else {
+			
 		}
 	}
-	
 	
 }
 

@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-15T14:05:14 PST" name="Suite" finished-at="2024-01-15T14:05:28 PST" duration-ms="14532">
+  <suite started-at="2024-01-21T18:13:26 PST" name="Suite" finished-at="2024-01-21T18:13:47 PST" duration-ms="20556">
     <groups>
     </groups>
-    <test started-at="2024-01-15T14:05:14 PST" name="Test" finished-at="2024-01-15T14:05:28 PST" duration-ms="14532">
+    <test started-at="2024-01-21T18:13:26 PST" name="Test" finished-at="2024-01-21T18:13:47 PST" duration-ms="20556">
       <class name="contactUsPage.testCases.TestCase_05">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:contactUsPage.testCases.TestCase_05@12f49ca8]" started-at="2024-01-15T14:05:24 PST" name="setUp" finished-at="2024-01-15T14:05:25 PST" duration-ms="607" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:contactUsPage.testCases.TestCase_05@12f49ca8]" started-at="2024-01-21T18:13:43 PST" name="setUp" finished-at="2024-01-21T18:13:44 PST" duration-ms="893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="failedTest()[pri:5, instance:contactUsPage.testCases.TestCase_05@12f49ca8]" started-at="2024-01-15T14:05:25 PST" name="failedTest" finished-at="2024-01-15T14:05:28 PST" duration-ms="3564" status="FAIL">
+        <test-method signature="failedTest()[pri:5, instance:contactUsPage.testCases.TestCase_05@12f49ca8]" started-at="2024-01-21T18:13:44 PST" name="failedTest" finished-at="2024-01-21T18:13:47 PST" duration-ms="2408" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='contact_reply']/h1"}
-  (Session info: chrome=120.0.6099.217)
+  (Session info: chrome=120.0.6099.225)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d5f4435f601239da0416ff18d9b2108, findElement {using=xpath, value=//div[@id='contact_reply']/h1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56137/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d5f4435f601239da0416ff18d9b2108]]>
+Command: [46bad8c140e0bdc04ef5a462295f427c, findElement {using=xpath, value=//div[@id='contact_reply']/h1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58199/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46bad8c140e0bdc04ef5a462295f427c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='contact_reply']/h1"}
-  (Session info: chrome=120.0.6099.217)
+  (Session info: chrome=120.0.6099.225)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d5f4435f601239da0416ff18d9b2108, findElement {using=xpath, value=//div[@id='contact_reply']/h1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56137/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d5f4435f601239da0416ff18d9b2108
+Command: [46bad8c140e0bdc04ef5a462295f427c, findElement {using=xpath, value=//div[@id='contact_reply']/h1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58199/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46bad8c140e0bdc04ef5a462295f427c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -89,18 +89,35 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method is-config="true" signature="teardownInitial()[pri:0, instance:contactUsPage.testCases.TestCase_05@12f49ca8]" started-at="2024-01-15T14:05:28 PST" name="teardownInitial" finished-at="2024-01-15T14:05:28 PST" duration-ms="79" status="PASS">
+        <test-method is-config="true" signature="teardownInitial()[pri:0, instance:contactUsPage.testCases.TestCase_05@12f49ca8]" started-at="2024-01-21T18:13:47 PST" name="teardownInitial" finished-at="2024-01-21T18:13:47 PST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownInitial -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactUsPage.testCases.TestCase_05@12f49ca8]" started-at="2024-01-15T14:05:28 PST" name="tearDown" finished-at="2024-01-15T14:05:28 PST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactUsPage.testCases.TestCase_05@12f49ca8]" started-at="2024-01-21T18:13:47 PST" name="tearDown" finished-at="2024-01-21T18:13:47 PST" duration-ms="2" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.extent" is null]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58199/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.extent" is null
-at contactUsPage.pageObject.BaseClass.tearDown(BaseClass.java:44)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58199/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:410)
+at contactUsPage.pageObject.BaseClass.tearDown(BaseClass.java:45)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -130,32 +147,49 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- contactUsPage.testCases.TestCase_05 -->
       <class name="contactUsPage.testCases.TestCase_03">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:contactUsPage.testCases.TestCase_03@59bbb974]" started-at="2024-01-15T14:05:19 PST" name="setUp" finished-at="2024-01-15T14:05:20 PST" duration-ms="644" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:contactUsPage.testCases.TestCase_03@59bbb974]" started-at="2024-01-21T18:13:35 PST" name="setUp" finished-at="2024-01-21T18:13:36 PST" duration-ms="942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidEmail()[pri:3, instance:contactUsPage.testCases.TestCase_03@59bbb974]" started-at="2024-01-15T14:05:20 PST" name="invalidEmail" finished-at="2024-01-15T14:05:22 PST" duration-ms="1723" status="PASS">
+        <test-method signature="invalidEmail()[pri:3, instance:contactUsPage.testCases.TestCase_03@59bbb974]" started-at="2024-01-21T18:13:36 PST" name="invalidEmail" finished-at="2024-01-21T18:13:39 PST" duration-ms="2624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidEmail -->
-        <test-method is-config="true" signature="teardownInitial()[pri:0, instance:contactUsPage.testCases.TestCase_03@59bbb974]" started-at="2024-01-15T14:05:22 PST" name="teardownInitial" finished-at="2024-01-15T14:05:22 PST" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="teardownInitial()[pri:0, instance:contactUsPage.testCases.TestCase_03@59bbb974]" started-at="2024-01-21T18:13:39 PST" name="teardownInitial" finished-at="2024-01-21T18:13:39 PST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownInitial -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactUsPage.testCases.TestCase_03@59bbb974]" started-at="2024-01-15T14:05:22 PST" name="tearDown" finished-at="2024-01-15T14:05:22 PST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactUsPage.testCases.TestCase_03@59bbb974]" started-at="2024-01-21T18:13:39 PST" name="tearDown" finished-at="2024-01-21T18:13:39 PST" duration-ms="1" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.extent" is null]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58142/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.extent" is null
-at contactUsPage.pageObject.BaseClass.tearDown(BaseClass.java:44)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58142/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:410)
+at contactUsPage.pageObject.BaseClass.tearDown(BaseClass.java:45)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -185,32 +219,49 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- contactUsPage.testCases.TestCase_03 -->
       <class name="contactUsPage.testCases.TestCase_04">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:contactUsPage.testCases.TestCase_04@7165d530]" started-at="2024-01-15T14:05:22 PST" name="setUp" finished-at="2024-01-15T14:05:22 PST" duration-ms="625" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:contactUsPage.testCases.TestCase_04@7165d530]" started-at="2024-01-21T18:13:39 PST" name="setUp" finished-at="2024-01-21T18:13:40 PST" duration-ms="831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="emptyformSubmit()[pri:4, instance:contactUsPage.testCases.TestCase_04@7165d530]" started-at="2024-01-15T14:05:22 PST" name="emptyformSubmit" finished-at="2024-01-15T14:05:24 PST" duration-ms="1568" status="PASS">
+        <test-method signature="emptyformSubmit()[pri:4, instance:contactUsPage.testCases.TestCase_04@7165d530]" started-at="2024-01-21T18:13:40 PST" name="emptyformSubmit" finished-at="2024-01-21T18:13:43 PST" duration-ms="3503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyformSubmit -->
-        <test-method is-config="true" signature="teardownInitial()[pri:0, instance:contactUsPage.testCases.TestCase_04@7165d530]" started-at="2024-01-15T14:05:24 PST" name="teardownInitial" finished-at="2024-01-15T14:05:24 PST" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="teardownInitial()[pri:0, instance:contactUsPage.testCases.TestCase_04@7165d530]" started-at="2024-01-21T18:13:43 PST" name="teardownInitial" finished-at="2024-01-21T18:13:43 PST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownInitial -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactUsPage.testCases.TestCase_04@7165d530]" started-at="2024-01-15T14:05:24 PST" name="tearDown" finished-at="2024-01-15T14:05:24 PST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactUsPage.testCases.TestCase_04@7165d530]" started-at="2024-01-21T18:13:43 PST" name="tearDown" finished-at="2024-01-21T18:13:43 PST" duration-ms="2" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.extent" is null]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58167/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.extent" is null
-at contactUsPage.pageObject.BaseClass.tearDown(BaseClass.java:44)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58167/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:410)
+at contactUsPage.pageObject.BaseClass.tearDown(BaseClass.java:45)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -240,32 +291,49 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- contactUsPage.testCases.TestCase_04 -->
       <class name="contactUsPage.testCases.TestCase_01">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:contactUsPage.testCases.TestCase_01@73971965]" started-at="2024-01-15T14:05:14 PST" name="setUp" finished-at="2024-01-15T14:05:15 PST" duration-ms="1007" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:contactUsPage.testCases.TestCase_01@73971965]" started-at="2024-01-21T18:13:26 PST" name="setUp" finished-at="2024-01-21T18:13:28 PST" duration-ms="1526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="formSubmit()[pri:1, instance:contactUsPage.testCases.TestCase_01@73971965]" started-at="2024-01-15T14:05:15 PST" name="formSubmit" finished-at="2024-01-15T14:05:17 PST" duration-ms="2163" status="PASS">
+        <test-method signature="formSubmit()[pri:1, instance:contactUsPage.testCases.TestCase_01@73971965]" started-at="2024-01-21T18:13:28 PST" name="formSubmit" finished-at="2024-01-21T18:13:32 PST" duration-ms="3680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formSubmit -->
-        <test-method is-config="true" signature="teardownInitial()[pri:0, instance:contactUsPage.testCases.TestCase_01@73971965]" started-at="2024-01-15T14:05:17 PST" name="teardownInitial" finished-at="2024-01-15T14:05:17 PST" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="teardownInitial()[pri:0, instance:contactUsPage.testCases.TestCase_01@73971965]" started-at="2024-01-21T18:13:32 PST" name="teardownInitial" finished-at="2024-01-21T18:13:32 PST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownInitial -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactUsPage.testCases.TestCase_01@73971965]" started-at="2024-01-15T14:05:17 PST" name="tearDown" finished-at="2024-01-15T14:05:17 PST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactUsPage.testCases.TestCase_01@73971965]" started-at="2024-01-21T18:13:32 PST" name="tearDown" finished-at="2024-01-21T18:13:32 PST" duration-ms="8" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.extent" is null]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58069/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.extent" is null
-at contactUsPage.pageObject.BaseClass.tearDown(BaseClass.java:44)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58069/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:410)
+at contactUsPage.pageObject.BaseClass.tearDown(BaseClass.java:45)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -295,32 +363,49 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- contactUsPage.testCases.TestCase_01 -->
       <class name="contactUsPage.testCases.TestCase_02">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:contactUsPage.testCases.TestCase_02@575b5f7d]" started-at="2024-01-15T14:05:17 PST" name="setUp" finished-at="2024-01-15T14:05:18 PST" duration-ms="629" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:contactUsPage.testCases.TestCase_02@575b5f7d]" started-at="2024-01-21T18:13:32 PST" name="setUp" finished-at="2024-01-21T18:13:33 PST" duration-ms="956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="formReset()[pri:2, instance:contactUsPage.testCases.TestCase_02@575b5f7d]" started-at="2024-01-15T14:05:18 PST" name="formReset" finished-at="2024-01-15T14:05:19 PST" duration-ms="1588" status="PASS">
+        <test-method signature="formReset()[pri:2, instance:contactUsPage.testCases.TestCase_02@575b5f7d]" started-at="2024-01-21T18:13:33 PST" name="formReset" finished-at="2024-01-21T18:13:35 PST" duration-ms="2233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formReset -->
-        <test-method is-config="true" signature="teardownInitial()[pri:0, instance:contactUsPage.testCases.TestCase_02@575b5f7d]" started-at="2024-01-15T14:05:19 PST" name="teardownInitial" finished-at="2024-01-15T14:05:19 PST" duration-ms="57" status="PASS">
+        <test-method is-config="true" signature="teardownInitial()[pri:0, instance:contactUsPage.testCases.TestCase_02@575b5f7d]" started-at="2024-01-21T18:13:35 PST" name="teardownInitial" finished-at="2024-01-21T18:13:35 PST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownInitial -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactUsPage.testCases.TestCase_02@575b5f7d]" started-at="2024-01-15T14:05:19 PST" name="tearDown" finished-at="2024-01-15T14:05:19 PST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactUsPage.testCases.TestCase_02@575b5f7d]" started-at="2024-01-21T18:13:35 PST" name="tearDown" finished-at="2024-01-21T18:13:35 PST" duration-ms="1" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.extent" is null]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58118/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "this.extent" is null
-at contactUsPage.pageObject.BaseClass.tearDown(BaseClass.java:44)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Tanma\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58118/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:410)
+at contactUsPage.pageObject.BaseClass.tearDown(BaseClass.java:45)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -350,7 +435,7 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

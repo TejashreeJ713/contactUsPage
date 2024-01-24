@@ -29,7 +29,7 @@ public class Listeners extends BaseClass implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		// screenshot
 		test.log(Status.FAIL, "Test Failed");
-		test.fail(result.getThrowable());
+		test.fail(result.getThrowable());//exception throw
 	}
 
 	@Override
